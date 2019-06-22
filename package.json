@@ -1,0 +1,12 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "My TypeScript research, proof of concept and experimental code snippets.",
+  "main": "index.js",
+  "author": "suin <suinyeze@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
