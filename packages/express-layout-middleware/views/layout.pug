@@ -1,0 +1,8 @@
+html
+    head
+        title= title
+        each stylesheet in stylesheets
+            link(rel="stylesheet", href=stylesheet)
+    body
+        h1= title
+        div !{body}
