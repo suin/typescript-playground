@@ -1,0 +1,16 @@
+{
+  "name": "frozen-class-decorator",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "suin <suinyeze@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node index.ts",
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}

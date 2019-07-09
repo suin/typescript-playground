@@ -6,7 +6,10 @@
   "author": "suin <suinyeze@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "scripts": {
+    "postinstall": "lerna boostrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
 }
