@@ -1,0 +1,36 @@
+{
+  "name": "koa-playground",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "suin <suinyeze@gmail.com>",
+  "homepage": "https://github.com/suin/typescript-playground#readme",
+  "license": "MIT",
+  "main": "lib/koa-playground.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suin/typescript-playground.git"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/suin/typescript-playground/issues"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.49",
+    "@types/koa-route": "^3.2.4",
+    "ts-node-dev": "^1.0.0-pre.42",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-route": "^3.2.0"
+  }
+}
