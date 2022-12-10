@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pug": "^2.0.4",
     "type-is": "^1.6.18"
   },
